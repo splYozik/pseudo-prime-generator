@@ -1,8 +1,11 @@
 # pseudo-prime-generator
 
 This is a simple Python tool I made to generate and test **pseudo-prime numbers**.
-
 > ⚠️ **WARNING:** The generated numbers are **NOT cryptographically secure**.
+
+- **def generate_random** - uses the built-in random.randint(0, 9) function
+- **def generate_time** - digits from the system clock
+- **def generate_LCG** - classic Linear Congruential Generator
 
 ## 🗂 What's inside?
 
